@@ -1,0 +1,152 @@
+.footer{
+    width: 100%;
+    height: 450px;
+    background-color: #293037;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.upFooter{
+    width: 100%;
+    height: 82%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about{
+    height: 100%;
+    width: fit-content;
+    color: #999;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.about > h1{
+    font-size: 17px;
+    font-family: Montserrat,Open Sans,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.about > p{
+    font-size: 14px;
+    font-family: Montserrat,Open Sans,Helvetica,Arial,sans-serif;
+    line-height:20px ;
+}
+
+.footerNavs{
+    font-size: 14px;
+    text-decoration: none;
+    font-family: Montserrat,Open Sans,Helvetica,Arial,sans-serif;
+    color: #999;
+    line-height: 30px;
+}
+
+.inputbutton{
+    width: fit-content;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.input{
+    background-color: #1F1F1F;
+    color: #fff;
+    border: 1px solid #cacaca;
+    font-size: 15px;
+    height: 25px;
+    width: 250px;
+}
+
+.OK{
+    height:30px;
+    width: 50px;
+    background-color: #00BCD4;
+    color: white;
+    border: none;
+
+}
+
+.downFooter{
+    width: 70%;
+    height: 18%;
+    border-top: 2px solid #353e46;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.downFooterNavs{
+    color: #999;
+    font-size: 10px;
+    font-family: Montserrat,Open Sans,Helvetica,Arial,sans-serif;
+}
+
+.privacy{
+    color: white;
+    font-size: 15px;
+}
+
+.Extra{
+    width: 100%;
+    height: 80px;
+    background-color:#293037;
+}
+
+.FooterDown{
+    width: 100%;
+    height: 80px;
+    background-color:#353E5C;
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.FooterDownContent{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.FooterDownContent > p{
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}
+
+.Schedule{
+    width: 200px;
+    height: 45px;
+    background-color: #00BCD4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.NEW{
+    position: fixed;
+    bottom: 6%;
+    left: 21%;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: #EA5E5E;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-25deg);
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+

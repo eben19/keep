@@ -1,0 +1,105 @@
+.body{
+    width: 100%;
+    height: 150vh;
+    background-color: #EBFCFF;
+}
+
+.UP{
+    width: 100%;
+    height: 50%;
+}
+
+.WavesTop{
+    width: 100%;
+    height: 140px;
+}
+
+.WavesTop > img{
+    width: 100%;
+}
+
+.Content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.ContentPic{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ContentText{
+    width: 50%;
+    height: 100%;
+}
+
+.ContentText > p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.A{
+    text-decoration: none;
+    color: aqua;
+}
+
+.Button{
+    background-color: #FF8D1A;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+.DOWN{
+    width: 100%;
+    height: 50%; 
+    display: flex;
+    flex-direction: column;
+}
+
+.WavesBottom{
+    width: 100%;
+    height: 200px;
+}
+
+.WavesBottom > img{
+    width: 100%;
+}
+
+.Content2{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Content2Text{
+    width: 43%;
+    height: 100;
+}
+
+.Content2Text > p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.Content2Pic{
+    width: 50%;
+    height: 100;
+}
+
+.Content2Pic > img{
+    margin-left: 50px;
+}
+
+

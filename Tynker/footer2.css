@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.footContain{
+    height: 450px;
+    width: 100%;
+    background-color: #242a31;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.holder{
+    width:90%;
+    height: 75%;
+    display: flex;
+    background-color:#242a31;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 0.1px solid darkgray;
+  
+}
+
+.about{
+    width :27%;
+    height: 80%;
+    color: rgb(133, 143, 151);
+    flex-wrap: wrap;
+}
+.about>p{
+    line-height: 140%;
+}
+h3{
+    color:rgb(133, 143, 151);
+    font-size: 15px;
+    margin-bottom: 3%;
+
+}
+
+.Resource{
+    width:10%;
+    height: 80%;
+
+    
+}
+ul{
+    list-style-type: none;
+    float: left;
+    line-height: 160%;
+}
+
+li{
+    list-style: none;
+    display: list-item;
+    color: rgb(133, 143, 151);
+    text-align: -webkit-match-parent;
+
+}
+.Parents{
+    width:10%;
+    height: 80%;
+}
+a{
+    text-decoration: none;
+    color: rgb(133, 143, 151);
+    cursor: pointer;
+}
+
+.educators{
+    width:15%;
+    height: 80%;
+}
+
+.newsLetter{
+    width:25%;
+    height: 80%;
+}
+
+.inp{
+    height: 100%;
+    width: 100%;
+    float: right;
+}
+
+input{
+    height: 10%;
+    width: 70%;
+    background-color:rgb(26, 24, 24);
+    border: 1px solid snow;
+    border-collapse:collapse;
+    box-shadow: 5px;
+}
+
+button{
+    height: 10.5%;
+    width: 25%;
+    color:white;
+    background-color: rgb(8, 188, 219);
+    border: 1px solid rgb(8, 188, 219) ;
+    margin-left: 1px;
+    cursor: pointer;
+}
+::placeholder{
+    color:rgb(223, 219, 219);
+    opacity: 1;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+hr{
+    width: 80%;
+    margin: auto;
+    size: thin 0.1px;
+
+}
+.bottom{
+   width: 90%;
+   height: 15%;
+   display: flex;
+}
+
+.bottomContain{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottomContain >a {
+    font-size: 13px;
+    text-decoration: none;
+    color:rgb(133, 143, 151)
+    
+}
+\0022{
+    color:white
+}
+
+\007c{
+    color:white ;
+}
+
+\00a9{
+    color: rgb(253, 253, 253);
+}
+#neuron{color: rgb(133, 143, 151);}
+#privacy{
+    color: white;
+    font-size: 15px;
+}
+
+.Extra{
+    width: 100%;
+    height: 80px;
+    background-color:#293037;
+}
+
+.FooterDown{
+    width: 100%;
+    height: 80px;
+    background-color:#353E5C;
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.FooterDownContent{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.FooterDownContent > p{
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}
+
+.Schedule{
+    width: 200px;
+    height: 45px;
+    background-color: #00BCD4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.NEW{
+    position: fixed;
+    bottom: 6%;
+    left: 21%;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: #EA5E5E;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-25deg);
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+

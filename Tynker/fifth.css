@@ -1,0 +1,38 @@
+.code-tynker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height: 80vh;
+    background-color: #EBFCFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.squiggleTopdiv{
+    width: 100%;
+    height: 20%;
+}
+
+.squiggleTop{
+    width:100%;
+    
+}
+.Tdiv-text{
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    align-content: center;
+}
+
+.Tdiv-text > h1{
+    text-align: center;
+    font-size: 27px;
+}
+
+.Tdiv-text > p{
+    font-size: 16px;
+    line-height: 5px;  
+    text-align: left; 
+}

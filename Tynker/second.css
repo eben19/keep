@@ -1,0 +1,192 @@
+.Container{
+    width: 80%;
+    height: 60vh;
+    margin-left: 250px;
+    margin-right: 150px;
+    display: flex;
+}
+
+.Text{
+    width: 50%;
+    height: 100%;
+}
+
+.Text > p{
+    font-size: 20px;
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
+}
+
+.Text > h1{
+    font-size: 40px;
+}
+
+.textbase{
+    text-decoration: none;
+    color: aqua;
+}
+
+.Text > button{
+    background-color: #FF8D1A;
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Girl{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.beenbusy{
+    margin-left: 250px;
+    font-size: 40px;
+}
+
+.Girl > img{
+    width: 600px;
+    height: 350px;
+    margin-left: 30px;
+}
+
+.AP{
+    width: 80%;
+    height: 200px;
+    margin-left: 220px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.APCSA{
+    height: 100%;
+    width: 30%;
+    display: flex;
+}
+
+.APCSAIcon{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.APCSAIcon > img{
+    width: 110px;
+    height: 50%;
+    margin-bottom: 30px;
+}
+
+.APCSAText{
+    height: 100%;
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.APCSAText > h1{
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.APCSAText > p{
+    font-size: 16px;
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
+}
+
+.LearnMore{
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+}
+
+.LiveClasses{
+    height: 100%;
+    width: 30%;
+    display: flex;
+}
+
+.LiveClassesIcon{
+    height: 100%;
+    width: 30%;
+    display: flex;
+}
+
+.LiveClassesIcon > img{
+    width: 130px;
+    height: 130px;
+    margin-top: 20px;
+}
+
+.LiveClassesText{
+    height: 100%;
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.LiveClassesText > h1{
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.LiveClassesText > p{
+    font-size: 17px;
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
+}
+
+.LearnMore3{
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+}
+
+.BYJU{
+    height: 100%;
+    width: 30%;
+    display: flex;
+}
+
+.BYJUIcon{
+    height: 100%;
+    width: 30%;
+}
+
+.BYJUIcon > img{
+    width: 120px;
+    height: 120px;
+    margin-top: 25px;
+}
+
+.BYJUText{
+    height: 100%;
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 25px;
+}
+
+.BYJUText > h1{
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.BYJUText > p{
+    font-size: 18px;
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
+}
+
+.LearnMore2{
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+}

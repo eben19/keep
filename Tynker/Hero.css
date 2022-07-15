@@ -1,0 +1,204 @@
+.heroBody{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../Images/background@2x.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.heroConTENT{
+    width: 100%;
+    height: 85%;
+}
+
+.upheroConTENT{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.loGo{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.loGo > img{
+    width: 180px;
+    height: 30px;
+    margin-right: 50px;
+}
+
+.NaVss{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.NaVss > a{
+    text-decoration: none;
+    color: white;
+}
+
+.navPad{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navPad:hover{
+    background-color: lightsteelblue;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.Pad{
+    width: 30px;
+}
+
+.navParents{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navParents:hover{
+    background-color: lightsteelblue;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.navEdu{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navEdu:hover{
+    background-color: lightsteelblue;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.navCode{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navCode:hover{
+    background-color: lightsteelblue;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+
+.BTN{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.BTN1{
+    height: 40px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.BTN1:hover{
+    background-color: limegreen;
+}
+
+.BTN2{
+    height: 40px;
+    background-color: transparent;
+    border: transparent;
+    color: white; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.downheroConTENT{
+    width: 100%;
+    height:90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.leftheroConTENT{
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: white;
+}
+
+.leftheroConTENT > h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.TheFun{
+    font-size: 25px;
+    margin-top: -30px;
+}
+
+.leftheroConTENT > button{
+    background-color: #FF8D1A;
+    border: none;
+    height: 50px;
+    width: 230px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.atHome{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Per{
+    color: white;
+}
+
+
+.rightheroConTENT{
+    width: 50%;
+    height: 100%;
+    margin-bottom: -280px;
+}
+
+
+.squiggle{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.squiggle > img{
+   width: 100%;
+}
+
+.Help{
+    position: fixed;
+    right: 0%;
+    bottom: 12%;
+}

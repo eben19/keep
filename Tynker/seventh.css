@@ -1,0 +1,38 @@
+.mainContainer{
+    width:100%;
+    background-color: #ecfcff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textTdiv{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    line-height: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tdivImg{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tImg{
+    width: 200px;
+    height: 150px;
+}
+
+.tImg2{ 
+    width:150px;
+    height:150px;   
+}
+
+.tdivImg2{
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+}

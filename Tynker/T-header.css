@@ -1,0 +1,122 @@
+.main{
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+    background-image: url('../Tynker-images/snow-bg.png');
+    background-size: cover;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+.pic{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    width: 550px;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav2{
+    width: 350px;
+    font-size: 18px;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.nav2 a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.join{
+    width: 130px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    font-family: monospace;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.bod{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/.pix{
+    width: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.par{
+    width: 600px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.par h1{
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+}
+
+.par h3{
+    font-size: 17px;
+    color: white;
+    line-height: 30px;
+}
+
+.get{
+    width: 230px;
+    height: 50px;
+    background-color: #FF8D1A;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    color: white;
+}
+
+.par span{
+    text-decoration: underline;
+}
+
+.pix2{
+    display: flex;
+}

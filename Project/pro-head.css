@@ -1,0 +1,245 @@
+.cover{
+    width: 100%;
+    height: 500px;
+    background-color: green;
+    background-image: url('../Project/Pro-images/hero-bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}    
+
+.head{
+    width: 100%;
+    height: 70px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navi{
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sp1{
+    color: #ff7200;
+    font-size: 23px;
+}
+
+.menu{
+    display: none;
+    color: white;
+}
+
+.navi a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.navi a:hover{
+    color: rgb(148, 148, 241);
+}
+
+@media screen and (max-width: 768px) {
+    .navi{display: none;}
+    .menu{
+        display: flex;
+        color: white;
+        width: 80px;
+    }
+    .logo{
+        font-size: 14px;
+        width: 200px;
+    }
+    .cover{
+        height: 400px;
+    }
+}
+
+
+
+@media screen and (max-width: 425px){
+    .menu{
+        display: flex;
+        color: white;
+        width: 50px;}
+
+        .logo{
+            font-size: 14px;
+            width: 200px;
+        }
+}
+
+@media screen and (max-width: 320px) {
+    .logo{
+        font-size: 12px;
+        width: 150px;
+    }
+    .cover{
+        height: 250px;
+    }
+}
+
+.web{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.train{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.spons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.spons img{
+    width: 200px;
+    height: 100px;
+}
+
+.ger{
+    height: 150px;
+    width: 250px;
+    background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+   .train{
+       font-size: 15px;
+       width: 500px;
+       margin-bottom: 30px;  
+   }
+
+   .spons img{
+       width: 150px;
+       height: 70px;
+   }
+
+   .ger img{
+       height: 50px;
+       width: 100px;
+   }
+
+   .web{
+       width: 700px;
+       height: 300px;
+   }   
+
+   .spons{
+       width: 600px;
+   }
+}
+
+@media screen and (max-width: 320px){
+    .train{
+        width: 200px;
+        margin-bottom: 5px; 
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .train h1{
+        font-size: 25px;
+    }
+ 
+    .spons img{
+        width: 150px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+ 
+    .ger img{
+        height: 90px;
+        width: 120px;
+    }
+ 
+    .web{
+        width: 220px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }   
+ 
+    .spons{
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } 
+}
+
+@media screen and (max-width: 425px){
+    .train{
+        font-size: 15px;
+        width: 160px;
+        margin-bottom: 5px; 
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+ 
+    .spons img{
+        width: 170px;
+        height: 70px;
+        margin-bottom: 10px;
+    }
+ 
+    .ger{
+        height: 110px;
+        width: 140px;
+    }
+ 
+    .web{
+        width: 400px;
+        height: 370px;
+    }   
+ 
+    .spons{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cover{
+        height: 450px;
+    }
+        
+}

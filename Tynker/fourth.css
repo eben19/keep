@@ -1,0 +1,154 @@
+.MainBody{
+    width: 100%;
+    height: 180vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.UpBody{
+    height: 50%;
+    width: 100%;
+}
+
+.UpBodyText{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.UpBodyText > p{
+    font-size: 17px;
+}
+
+.UpBodyContent{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.UpBodyPic{
+    width: 54%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.UpBodyIcon{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.UpBodyIcon1{
+    width: 100%;
+    height: 28%;
+    display: flex;
+}
+
+.UpBodyIcon2{
+    width: 100%;
+    height: 28%;
+    display: flex;
+}
+
+.UpBodyIcon3{
+    width: 100%;
+    height: 28%;
+    display: flex;
+}
+
+.Avatar{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.TynkerJunior{
+    width: 100%;
+    height: 90%;
+}
+
+.FourStars{
+    width: 50%;
+    height: 23%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FourStarsP{
+    font-size: 13px;
+}
+
+.FourStars > img{
+    width: 150px;
+    height: 90%;
+}
+
+.TynkerJuniorText{
+    width: 100%;
+    height: 80%;
+}
+
+.Big{
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.Drag{
+    font-size: 13px;
+}
+
+.DownBody{
+    height: 50%;
+    width: 100%;
+}
+
+.Heading{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.CONtent{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.CONtentLeft{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.CONtentLeft > p{
+   font-size: 19px;
+   font-family: Open Sans,Helvetica,Arial,sans-serif;
+}
+
+.CONtentRight{
+    width: 55%;
+    height: 100%;
+}
+
+
+
+.CONtentRight > img{
+    width: 75%;
+    height: 80%;
+}

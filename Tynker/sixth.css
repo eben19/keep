@@ -1,0 +1,44 @@
+.CardBody{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: #EDFCFE;
+    margin-top: -170px;
+}
+
+.cardsContainer{
+    width: 65%;
+    height:500px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    width: 22%;
+    height:230px;
+    box-shadow: -1px 6px 10px 0px rgba(0,0,0,0.75);
+    background-color: white;
+    border-radius:5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+}
+
+.card>h1{
+    font-size:18px;
+    color:#0096aa;
+    align-self: center;
+}
+
+.card>ul{
+    align-self: flex-start;
+}
+
+.card>ul>li{
+    font-size: 11px;
+    color:#515562;
+    list-style-image: url(../Tynker-images/external-greater.png);
+}

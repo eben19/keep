@@ -1,0 +1,242 @@
+.mapContain{
+    width:100%;
+    height:230vh;
+    background-image: url(../Tynker-images/bg-shape-testimonials.svg) ;
+    background-position:center;
+    background-size: cover;
+    background-color: #f2f9fb;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.map{
+    width:100%;
+    height:100vh;
+}
+
+.first-map{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.signUp{
+    width:150px;
+    height:50px;
+    background-color: #ff8d1a;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dot{
+    width:350px;
+    height:300px;
+    margin-top:-750px;
+    position:absolute;
+    right:40px;
+}
+
+.blackCircle{
+    margin-top:-250px;
+    position:absolute;
+    right:103px;
+    background-color: black;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.blackCircle>h1{
+    color:#fde867;
+    line-height: 12px;
+    margin-bottom: 15px;
+}
+
+.blackCircle > p{
+    color:white;
+    line-height: 0px;
+    font-size: 20px;
+}
+
+.dot2{
+    width:350px;
+    height:300px;
+    margin-top:-600px;
+    position:absolute;
+    left:40px;
+}
+
+.blackCircle2{
+    margin-top: -250px;
+    position: absolute;
+    left: 95px;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.blackCircle2>h1{
+    color:#fde867;
+    line-height: 15px;
+}
+
+.blackCircle2>p{
+    color:white;
+    line-height: 10px;
+    font-size: 18px;
+}
+
+.dot3{
+    width:350px;
+    height:300px;
+    margin-top:-450px;
+    position:absolute;
+    left:55%;
+}
+
+.blackCircle3{
+    margin-top:-250px;
+    position:absolute;
+    left: 95px;
+    background-color: black;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blackCircle3>h1{
+    color:#fde867;
+    line-height: px;
+    font-size: 25px;  
+}
+
+.blackCircle3 .over{
+    font-size: 28px;
+    margin-bottom: -35px;
+}
+
+.blackCircle3 .thou{
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+
+.blackCircle3>p{
+    color: white;
+    font-size: 18px;
+    margin-top: -15px;
+}
+
+/* cards style*/
+
+.threeCards{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    margin-top: 100px;
+}
+
+.cardOne{
+    width:30%;
+    height:350px;
+    background-color: white;
+    box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+    border-radius:5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardTwo{
+    width:30%;
+    height:400px;
+    background-color:white;
+    box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+    border-radius:5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardThree{
+    width:30%;
+    height:350px;
+    background-color:white;
+    box-shadow: -1px 6px 5px 0px rgba(0,0,0,0.75);
+    border-radius:5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardImage{
+    display:flex;
+    justify-content: space-around;
+    width: 60%;
+    text-align: right;
+}
+
+.cardImage>p{
+    font-weight: bolder;
+}
+
+.maker{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+
+blockquote{
+    color: #2f2f2f;
+    font-size:28px ;
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
+}
+
+.quoteContain{
+    width: 100%;
+}
+
+.quoteContain p{
+    font-size: 22px;
+}
+
+.breakp{
+    font-weight:lighter ;
+}
+
+.quote1{
+    margin-left:10px;
+}
+
+.cardTwo>.quoteContain>.quote1{
+    margin-top: 20px;
+}
+
+.mapIconsContain{
+    margin:200px 5% 10px 5%;
+    display: flex;
+    justify-content: space-around;
+    width:90%;
+}
+
+.iconsImage{
+    width:100px;
+    height:100px;
+    margin-bottom: 20px;
+}
